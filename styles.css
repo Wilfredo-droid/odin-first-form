@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    margin: 0;
+}
+
+.signup-side{
+    background-color: red;
+    flex: 1;
+}
+
+.signup{
+    background-color: blue;
+    flex: 2;
+}
