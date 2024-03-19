@@ -11,4 +11,11 @@ body{
 .signup{
     background-color: blue;
     flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%; 
+    /*We need to put a height since this div's children won't grow without it*/
 }
+
+
