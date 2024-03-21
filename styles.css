@@ -36,4 +36,9 @@ body{
     width: 60%;
 }
 
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
 
