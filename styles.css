@@ -28,9 +28,11 @@ body{
     height: 40%;
     display: flex;
     flex-direction: column;
+    
 }
 
 .formContainer > *{
     flex: 1;
-    
+   
 }
+
