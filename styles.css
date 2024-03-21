@@ -41,4 +41,6 @@ form {
     justify-content: space-between;
 }
 
-
+label{
+    display: block;
+}
