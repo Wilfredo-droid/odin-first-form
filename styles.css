@@ -18,4 +18,14 @@ body{
     /*We need to put a height since this div's children won't grow without it*/
 }
 
+.formDescription{
+    background-color: aqua;
+    height: 20%;
+}
+
+.formContainer{
+    background-color: white;
+    height: 40%;
+
+}
 
