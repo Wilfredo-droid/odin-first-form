@@ -10,5 +10,11 @@ let passwordMatcher =  (password, confirmPassword) => {
 
 }
 
+passwordTag.addEventListener("keydown", (e) => {
 
+    if(e.key === "Enter"){
+      passwordMatcher(passwordTag, confirmPasswordTag);
+    }
+
+});
 
