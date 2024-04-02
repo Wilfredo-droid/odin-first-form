@@ -37,11 +37,16 @@ body{
     width: 60%;
 }
 
-form {
-    display: flex;
-    justify-content: space-between;
-}
-
 label{
     display: block;
+}
+
+#mainForm{
+    display: flex;
+    flex-direction: column;
+}
+
+form > div {
+    display: flex;
+    justify-content: space-between;
 }
