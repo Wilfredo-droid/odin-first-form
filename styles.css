@@ -44,7 +44,7 @@ label{
 #mainForm{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap:20px; 
 }
 
 form > div {
@@ -55,4 +55,9 @@ form > div {
 
 #formTitle{
     flex: 0;
+}
+
+.submitContainer{
+    background-color:antiquewhite;
+    margin: 1em 0;
 }
