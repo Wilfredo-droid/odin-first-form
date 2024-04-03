@@ -9,7 +9,7 @@ body{
 }
 
 .signup{
-    background-color: blue;
+    background-color: #f9fafb;
     flex: 2;
     display: flex;
     flex-direction: column;
@@ -19,7 +19,6 @@ body{
 }
 
 .formDescription{
-    background-color: aqua;
     height: fit-content;
 
 }
