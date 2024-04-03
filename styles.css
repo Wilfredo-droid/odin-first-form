@@ -1,6 +1,7 @@
 body{
     display: flex;
     margin: 0;
+    font-family: sans-serif;
 }
 
 .signup-side{
@@ -60,4 +61,8 @@ form > div[class^="form"] {
 .submitContainer{
     background-color:antiquewhite;
     margin-top: 3em;
+}
+
+h2{
+    font-size: 20px;
 }
