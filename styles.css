@@ -99,3 +99,21 @@ input{
     border: 1px solid grey;
     font-size: 14px;
 }   
+
+input:focus, input:invalid, input:valid{
+    outline: none;
+    box-shadow: 0px 5px 5px grey;
+}
+
+input:focus{
+    border: 1.5px solid blue;
+}
+
+input:invalid{
+    border: 1.5px solid red;
+}
+
+input:valid{
+    border: 1.5px solid green;
+}
+
