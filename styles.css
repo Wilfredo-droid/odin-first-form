@@ -106,11 +106,11 @@ input:focus, input:invalid, input:valid{
 }
 
 
-input:invalid{
+input:invalid:focus{
     border: 1.5px solid red;
 }
 
-input:valid{
+input:valid:focus{
     border: 1.5px solid green;
 }
 
