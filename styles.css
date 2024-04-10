@@ -60,9 +60,6 @@ form > div[class^="form"] {
     flex: 0;
 }
 
-.submitContainer{
-    margin-top: 3em; /*This is a very ugly hack but as of now, I do not know how to connect the submit button and the form, when the submit button is in a different tag, which would make things easier*/
-}
 
 h2{
     font-size: 20px;
