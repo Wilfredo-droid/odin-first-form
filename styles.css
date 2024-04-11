@@ -8,6 +8,7 @@ body{
 .signup-side{
     background-color: red;
     flex: 1;
+    position: relative;
 }
 
 .signup{
@@ -116,8 +117,8 @@ input:valid:focus{
 }
 
 .copyrights{
-
     position: absolute;
     bottom: 20px;
-    
+    width: 100%;
+    text-align: center;
 }
