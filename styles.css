@@ -50,7 +50,7 @@ label{
 form > div[class^="form"] {
     display: flex;
     justify-content: space-between;
-    
+    gap: 20px
 }
 
 #formTitle{
@@ -113,4 +113,11 @@ input:valid:focus{
 
 .signup > div{
     padding-left: 5%;
+}
+
+.copyrights{
+
+    position: absolute;
+    bottom: 20px;
+    
 }
