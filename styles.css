@@ -130,3 +130,16 @@ input:valid:focus{
     height: 100%;
 }
 
+.titleContainer{
+
+    position: absolute;
+    color: white;
+    top: 20%;
+    background-color: black;
+    opacity: 60%;
+    font-size: 50px;
+    width: 100%;
+    padding: 5% 0;
+    text-align: center;
+
+}
