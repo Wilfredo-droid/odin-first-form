@@ -1,20 +1,22 @@
 let passwordTag = document.querySelector("#password");
 let confirmPasswordTag = document.querySelector("#passwordConfirm");
+let submitButton = document.querySelector(".submitButton");
 
 let passwordMatcher =  (password, confirmPassword) => {
     
-    if(password.value == confirmPassword.value){
-        console.log(1);
+    if(password.value != confirmPassword.value){
+       passwordTag.innerHTML = a;
     }
 
 
 }
 
-passwordTag.addEventListener("keydown", (e) => {
+submitButton.addEventListener("click", (e) => {
 
-    if(e.key === "Enter"){
+    
       passwordMatcher(passwordTag, confirmPasswordTag);
-    }
+    
+
 
 });
 
