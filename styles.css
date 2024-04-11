@@ -94,11 +94,10 @@ input{
     font-size: 14px;
 }   
 
-input:focus, input:invalid, input:valid{
+input:invalid:focus, input:valid:focus{
     outline: none;
     box-shadow: 0px 5px 5px grey;
 }
-
 
 input:invalid:focus{
     border: 1.5px solid red;
