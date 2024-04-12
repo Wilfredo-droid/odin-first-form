@@ -2,10 +2,13 @@ let passwordTag = document.querySelector("#password");
 let confirmPasswordTag = document.querySelector("#passwordConfirm");
 let submitButton = document.querySelector(".submitButton");
 
-let passwordMatcher =  (password, confirmPassword) => {
+let passwordMatcher =  (password, confirmPassword, e) => {
     
+
     if(password.value != confirmPassword.value){
        
+        e.preventDefault();
+
         let pError = document.createElement("p");
         pError.classList.add("matchError");
         pError.innerText = "Passwords do not match";
@@ -14,18 +17,13 @@ let passwordMatcher =  (password, confirmPassword) => {
 
     }
 
-
 }
 
 submitButton.addEventListener("click", (e) => {
 
     
-      passwordMatcher(passwordTag, confirmPasswordTag);
+        passwordMatcher(passwordTag, confirmPasswordTag, e);
        
-      
-    
-      
-
 
 });
 
