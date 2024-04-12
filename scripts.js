@@ -12,10 +12,8 @@ let passwordMatcher =  (password, confirmPassword) => {
 
         passwordTag.parentElement.appendChild(pError);
 
-       return  true;
     }
 
-    return false;
 
 }
 
