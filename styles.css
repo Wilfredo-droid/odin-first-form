@@ -6,7 +6,6 @@ body{
 }
 
 .signup-side{
-    background-color: red;
     flex: 1;
     position: relative;
 }
